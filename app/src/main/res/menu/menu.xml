@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single" android:visible="true">
+    <item android:id="@+id/foireauxquestions"
+        android:title="Foire aux questions">
+    </item>
+    <item android:id="@+id/contacteznous" android:title="Contactez-nous"/>
+    <item android:id="@+id/touslesoprerateurs" android:title="@string/lesoprateursdisponibles"/>
+<item android:id="@+id/deconnexionitem" android:title="Déconnexion"/>
+</group>
+
+</menu>

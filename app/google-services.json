@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "694994186854",
+    "firebase_url": "https://mobiletopup-2f33c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mobiletopup-2f33c",
+    "storage_bucket": "mobiletopup-2f33c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694994186854:android:36b47ea218c8dca7f9b3a7",
+        "android_client_info": {
+          "package_name": "com.zambaapple.MobileTopUp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694994186854-jeam9rb035kovnvd847vpcqaih8nnhbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zambaapple.MobileTopUp",
+            "certificate_hash": "8fe7aeab9a49902d94ffd62ea83870c50e54faeb"
+          }
+        },
+        {
+          "client_id": "694994186854-483oot1qgsm7et2607mois5f3hppns4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjekYnuvWtObaZb5uabgDIKe2rn1y0DV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694994186854-483oot1qgsm7et2607mois5f3hppns4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

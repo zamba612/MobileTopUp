@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:padding="14dp"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+ <TableLayout
+     android:layout_width="match_parent"
+     android:id="@+id/tablelayout"
+     android:background="@android:color/holo_red_dark"
+     android:layout_height="wrap_content">
+     <androidx.appcompat.widget.Toolbar
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         ><LinearLayout
+         android:layout_width="wrap_content"
+         android:orientation="horizontal"
+         android:layout_height="match_parent">
+         <TextView
+             android:layout_width="match_parent"
+             android:text="Send money to any phone number"
+             android:textSize="24sp"
+             android:layout_height="match_parent"/>
+     </LinearLayout>
+     </androidx.appcompat.widget.Toolbar>
+ </TableLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_below="@id/tablelayout"
+                  android:orientation="vertical"
+                  android:layout_height="match_parent">
+       <LinearLayout android:layout_width="match_parent"
+                     android:orientation="horizontal"
+                     android:layout_height="wrap_content">
+           <ImageView android:layout_width="wrap_content"
+                      android:id="@+id/countrieimage"
+                      android:layout_height="wrap_content"/>
+          <LinearLayout android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+              <TextView android:layout_width="wrap_content"
+                        android:background="@drawable/designoperator"
+                        android:id="@+id/operatorcode"
+                        android:layout_height="wrap_content"/>
+              <TextView android:layout_width="wrap_content"
+android:layout_marginRight="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:text="Operator"
+                        android:textSize="32sp"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:id="@+id/operatorname"
+                        android:layout_height="wrap_content"/>
+          </LinearLayout>
+       </LinearLayout>
+
+        <TextView android:layout_width="wrap_content"
+                  android:background="@drawable/code"
+                  android:textSize="45sp"
+                  android:text="CD"
+                  android:id="@+id/countriephonecodeiso"
+                  android:layout_height="wrap_content"/>
+        <Spinner android:layout_width="match_parent"
+                 android:id="@+id/countriecode"
+                 android:theme="@style/AppTheme"
+                 android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="12dp"
+                android:padding="11dp"
+                app:cardBackgroundColor="@android:color/darker_gray"
+                android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="N° tel"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                    android:hint="+243"
+                    android:background="@drawable/code"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/countriephonecode"
+                    android:layout_height="wrap_content"/>
+                <EditText android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:id="@+id/phone_number"
+                    android:textSize="24sp"
+                    android:hint="*********"
+                    android:layout_marginRight="44dp"
+                    android:maxLength="9"
+                    android:layout_below="@id/countriecode"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button android:layout_width="match_parent"
+                android:text="Recherche dans notre serveur"
+                android:id="@+id/buttonrequest"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tl_phone_number_aaw"
+                android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="match_parent"
+                   android:id="@+id/imagecountrieimage"
+                   android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

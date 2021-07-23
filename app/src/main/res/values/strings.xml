@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mobile TopUp</string>
+    <string name="fcm_message">Promotions</string>
+    <string name="default_notification_channel_id">notification_channel_id</string>
+    <string name="facebook_app_id">4064213740257414</string>
+    <string name="fb_login_protocol_scheme">fb4064213740257414</string>
+    <string name="lesoprateursdisponibles">Les opérateurs disponibles</string>
+
+</resources>

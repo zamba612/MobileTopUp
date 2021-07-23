@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   app:cardCornerRadius="45dp"
+                                   app:cardUseCompatPadding="true"
+                                   android:layout_height="match_parent">
+<TextView android:layout_width="match_parent"
+          android:textSize="15sp"
+          android:padding="52dp"
+          android:text="Message"
+          android:background="@android:color/holo_green_light"
+          android:id="@+id/messageerror"
+          android:layout_height="match_parent">
+
+</TextView>
+</androidx.cardview.widget.CardView>
