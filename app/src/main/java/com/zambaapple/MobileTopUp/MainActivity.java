@@ -83,7 +83,7 @@ import retrofit2.Callback;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "Logout";
-    DatabaseReference MyRefDatabase = FirebaseDatabase.getInstance("https://mobiletopup-2f33c-default-rtdb.asia-southeast1.firebasedatabase.app").getReference();
+    DatabaseReference MyRefDatabase = FirebaseDatabase.getInstance("DATABASE URL").getReference();
     createtoken createtoken = APIClient.getClient().create(createtoken.class);
     private JSONArray jsonArray;
     Spinner spinner;
@@ -247,7 +247,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void countries() {
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://webhostzamba.000webhostapp.com/wallets/ReloadlyAPI/Countries.php", null, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "URL", null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
                 getListOfCountries(response);
