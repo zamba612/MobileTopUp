@@ -49,7 +49,7 @@ public class SingleActivity extends AppCompatActivity {
     private void getJsonsObjets(String operatorid) {
 
 
-StringRequest stringRequest=new StringRequest(Request.Method.POST,"https://webhostzamba.000webhostapp.com/wallets/ReloadlyAPI/operatorbyid.php", new Response.Listener<String>() {
+StringRequest stringRequest=new StringRequest(Request.Method.POST,"Url", new Response.Listener<String>() {
     @Override
     public void onResponse(String response) {
 System.out.println(response);
