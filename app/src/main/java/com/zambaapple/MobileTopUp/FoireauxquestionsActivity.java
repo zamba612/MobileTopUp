@@ -38,7 +38,7 @@ import java.util.Map;
 public class FoireauxquestionsActivity extends AppCompatActivity {
     FirebaseUser userser;
     ArrayList<User> users;
-    DatabaseReference MyRefDatabase = FirebaseDatabase.getInstance("https://mobiletopup-2f33c-default-rtdb.asia-southeast1.firebasedatabase.app").getReference();
+    DatabaseReference MyRefDatabase = FirebaseDatabase.getInstance("url firebase database").getReference();
     Button sendbutton;
     EditText editText;
     RecyclerView recyclerView;
