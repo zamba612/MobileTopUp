@@ -32,7 +32,7 @@ public class ContactezNousActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactez_nous);
 
-         reference= FirebaseDatabase.getInstance("https://mobiletopup-2f33c-default-rtdb.asia-southeast1.firebasedatabase.app").getReference("contactinfo");
+         reference= FirebaseDatabase.getInstance("DATABASE URL").getReference("contactinfo");
 
          textView=findViewById(R.id.contactinfo);
         reference.addValueEventListener(new ValueEventListener() {
