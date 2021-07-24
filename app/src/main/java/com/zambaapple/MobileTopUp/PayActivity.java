@@ -50,7 +50,7 @@ import java.util.Random;
 
 public class PayActivity extends AppCompatActivity {
     public static String currencysymbol = "";
-    DatabaseReference MyRefDatabase = FirebaseDatabase.getInstance("https://mobiletopup-2f33c-default-rtdb.asia-southeast1.firebasedatabase.app").getReference();
+    DatabaseReference MyRefDatabase = FirebaseDatabase.getInstance("Database URL").getReference();
     TextView tariftopaydirect, phonenumber_to_send, commissionamount, discountamount, TotalTopay, fraisdeservice;
     Token tok;
     EditText cardNumberField;
