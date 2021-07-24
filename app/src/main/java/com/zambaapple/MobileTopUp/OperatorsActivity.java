@@ -70,7 +70,7 @@ getJsonsObjets();
     }
 
     private void getJsonsObjets() {
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://webhostzamba.000webhostapp.com/wallets/ReloadlyAPI/alloperators.php", null, new com.android.volley.Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "URL", null, new com.android.volley.Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
               System.out.println(response);
